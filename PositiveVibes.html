@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Vibes Form!</title>
+</head>
+
+<body>
+    <h2>Tell us somethimg positive that happened to you today. </h2>
+
+    <form>
+        <p>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name" required>
+        </p>
+        <p>
+            Email
+            <input type="email" placeholder="Enter your email address" required>
+        </p>
+        <p>
+            On a scale of 1-10,how good was it?
+
+            <input type="number" placeholder="Enter a number between 1 and 10" name="Number" id="Number" min="1"
+                max="10">
+        </p>
+        <p>
+            Where did it happen?
+            <select name="happened" id="happened">
+                <option value="home">At home</option>
+                <option value="continue">At my continue</option>
+                <option value="work">At work</option>
+                <option value="street">At street</option>
+                <option value="others">Others</option>
+
+            </select>
+        </p>
+        <p>
+            At what time of day did it happen?
+
+            <input type="radio" name="Time" id="morning">
+            <label for="morning">Morning</label>
+            <input type="radio" name="Time" id="afternoon">
+            <label for="afternoon">Afternoon</label>
+            <input type="radio" name="Time" id="evening">
+            <label for="evening">Evening</label>
+
+        </p>
+        <p>
+            What emotions did you experience?
+            <input type="checkbox" name="Feelings" id="Feelings">
+            <label for="Excited">Excited</label>
+            <input type="checkbox" name="Feelings" id="Feelings">
+            <label for="humbled">Humbeled</label>
+            <input type="checkbox" name="Feelings" id="Feelings">
+            <label for="elated">Elated</label>
+            <input type="checkbox" name="Feelings" id="Feelings">
+            <label for="Loved">Loved</label>
+            <!-- <button type="button">Select all that apply</button> -->
+        </p>
+        <p>
+
+            <label for="experience?">Please describe your positive experience.</label>
+            <textarea name="experience?" placeholder="Enter your experience here...... " id="experience?" cols="50"
+                rows="4"></textarea>
+        </p>
+        <button>Submit form</button>
+    </form>
+
+</body>
+
+</html>
